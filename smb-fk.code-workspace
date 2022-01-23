@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../ms-identity-javascript-react-spa"
+		},
+		{
+			"path": "../mslearn-secure-app-with-oidc-and-azure-ad"
+		}
+	],
+	"settings": {}
+}

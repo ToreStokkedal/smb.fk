@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# Frontend for the Small Businwess hotell
+This will be teh iitial frontend for the Small Hotel and resturant management system. The frontend will allow you to book one of teh hotel rooms, see pricess, communicate with teh admon., It will also contain admin functinality to change bookings, move around, checkin, out, payment etc. The admon will also be required to a user an logged in to the 
+
+The companying backend is smb-bk, and will hold the Backend.
+
+# Structure and compoenents.
+
+Ths frontend will contain (React) components separated for rendering and control functions. The plan is to have:
+
+- Hotel component
+- RoomsView - list rooms
+- RoomView - details of a rom, and available dates
+- Booking View
+- Booking Conrol compoenent
+
+The firtst to achieve is:
+- Rooms list from server side
+- Autentication - to learn
+
+
+
+# Original ReadMe - Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,7 +29,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
