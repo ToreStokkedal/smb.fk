@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "../mslearn-secure-app-with-oidc-and-azure-ad"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../smb-bk"
 		}
 	],
 	"settings": {}

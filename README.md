@@ -7,6 +7,7 @@ The companying backend is smb-bk, and will hold the Backend.
 
 Ths frontend will contain (React) components separated for rendering and control functions. The plan is to have:
 
+- Heading  
 - Hotel component
 - RoomsView - list rooms
 - RoomView - details of a rom, and available dates

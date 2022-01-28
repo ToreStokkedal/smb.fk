@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
-// import {BookingCVControl 
+import { BrowserRouter } from 'react-router-dom';
+import Main from  './components/MainComponent';
 /**
- *  Redders main page, with meny bar, rooms list and loging top, left
+ *  Encapsulate in Browser Router and setup Main component
  */
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Enkel løsning for små hoteller</NavbarBrand>
-          </div>
-        </Navbar>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Main />
+        </div>
+      </BrowserRouter>
     );
   }
 }
