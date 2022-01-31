@@ -13,7 +13,9 @@ const msalInstance = new PublicClientApplication(msalConfig);
 /** Working to get Authentication to work, first as a experiment, then as login for admin pages */
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MsalProvider instance={msalInstance}>
+      <App />
+    </MsalProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
