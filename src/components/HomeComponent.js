@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardSubtitle, CardText, CardTitle } from "reactstrap";
 
-function Home(propd) {
+export function Home(props) {
     return (
         <div className='container'>
             <Card>

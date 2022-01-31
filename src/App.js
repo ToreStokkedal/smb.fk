@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import Main from  './components/MainComponent';
+import { Router, Route } from 'react-router-dom';
+import { Rooms } from './components/RoomsView';
+import { Menu } from './components/MenuComponent';
+import { Home} from './components/HomeComponent';
+
 /**
  *  Encapsulate in Browser Router and setup Main component
  */
@@ -8,12 +11,12 @@ import Main from  './components/MainComponent';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Main />
-        </div>
-      </BrowserRouter>
-    );
+      <Router>
+        <Route path="/rooms" element={<Rooms />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/home" element={<Home />} />
+      </Router>
+    )
   }
 }
 
